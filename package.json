@@ -40,8 +40,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USERNAME/dsh-roxy-theme.git"
+    "url": "git+https://github.com/w7542903-maker/dsh-roxy-theme.git"
   },
+  "homepage": "https://github.com/w7542903-maker/dsh-roxy-theme#readme",
   "publishConfig": {
     "access": "public"
   },
