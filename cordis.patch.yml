@@ -1,0 +1,14 @@
+# dsh-roxy-theme bundle patch: one host row. The node half (lib/index.js)
+# is a thin static-asset server for the Roxy brand files under /plugins/dsh-roxy-theme/assets
+# (favicon, hero, avatar, aura, pattern, welcome). The browser half
+# (lib/client.js) is the real theme: it registers a "Roxy 主题 / Roxy Theme"
+# settings page (slot settings.section) whose toggle layers the Roxy palette
+# through ctx.theme.overrideTokens and switches the crystal-glass CSS +
+# favicon on and off. The same row doubles as the browser roster entry
+# (dsh.client declaration in package.json), so the web shell loads
+# /plugins/dsh-roxy-theme/client.js.
+- insert:
+    - id: roxy-theme
+      name: 'dsh-roxy-theme'
+      inject: [webServer]
+      config: {}
