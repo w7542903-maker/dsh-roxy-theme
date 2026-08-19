@@ -4,7 +4,6 @@
 
 [English](README.md) | **中文**
 
-![#dsh-plugin](https://img.shields.io/badge/dsh-plugin-bundle%20composition-1f6feb)
 
 **v1.0.0** · MIT License
 
